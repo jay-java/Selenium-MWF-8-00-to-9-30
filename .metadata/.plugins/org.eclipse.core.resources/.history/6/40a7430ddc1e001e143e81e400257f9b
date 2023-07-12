@@ -1,0 +1,8 @@
+package basic;
+//1.Arithmetic Operators->+,-,*,/,%
+public class Operators {
+	public static void main(String[] args) {
+		int i=10,j=20,k;
+		System.out.println("i+j");
+	}
+}
