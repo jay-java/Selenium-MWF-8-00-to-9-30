@@ -1,0 +1,7 @@
+package basic;
+//to convert data from one dataType to another dataType
+public class TypeCasting {
+	public static void main(String[] args) {
+		
+	}
+}

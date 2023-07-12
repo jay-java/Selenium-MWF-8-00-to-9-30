@@ -17,5 +17,7 @@ public class DataTypes {
 		char c = 'q';
 		System.out.println(c);
 		boolean b1 = true;
+		String s1="hello java";
+		System.out.println(s1);
 	}
 }

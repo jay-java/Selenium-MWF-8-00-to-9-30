@@ -1,0 +1,18 @@
+package basic;
+//three stream->in(input stream)
+//				,out(print stream),err(err stream)
+class A{
+	public void call() {
+		System.out.println("hello call function");
+	}
+}
+public class UserInput {
+	public static void main(String[] args) {
+		A obj = new A();
+		obj.call();
+		//here ln is for new line
+		System.out.println("hello");
+		System.out.println("hello again");
+		
+	}
+}
