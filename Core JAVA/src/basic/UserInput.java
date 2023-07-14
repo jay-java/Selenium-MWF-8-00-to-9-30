@@ -23,5 +23,8 @@ public class UserInput {
 		int b = sc.nextInt();
 		int c = a/b;
 		System.out.println("c = "+c);
+		System.out.println("enter double value = ");
+		double d = sc.nextDouble();
+		System.out.println(d);
 	}
 }

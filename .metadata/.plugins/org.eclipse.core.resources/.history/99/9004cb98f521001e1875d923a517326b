@@ -1,0 +1,10 @@
+package Functions;
+//function->block of code to execute same code again and again
+class Call{
+	
+}
+public class TYpes {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -10,8 +10,6 @@ public class TypeCasting {
 		c = (double)a/(double)b;
 		System.out.println("c = "+c);
 		
-		
-		
 		double d=3;
 		System.out.println(d);
 		int i=(int)1.323;
