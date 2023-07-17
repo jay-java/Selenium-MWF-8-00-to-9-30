@@ -1,0 +1,8 @@
+package basic;
+
+public class UnaryOPerator {
+	public static void main(String[] args) {
+		int i=1,j;
+		j = i+1;
+	}
+}

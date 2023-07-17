@@ -1,0 +1,6 @@
+package basic;
+//to execute same code again and again
+public class Loops {
+	public static void main(String[] args) {
+	}
+}

@@ -1,0 +1,11 @@
+package basic;
+//to execute same code again and again
+//4 loops
+//1. for(initialization,condition,incre/decre){body}
+//2.while(condition){body}
+//3.do{body} while(condition);
+//4 for each -> for(Type object: list){}
+public class Loops {
+	public static void main(String[] args) {
+	}
+}
