@@ -1,5 +1,4 @@
 package basic;
-
 import java.util.Scanner;
 
 //to execute same code again and again

@@ -1,7 +1,0 @@
-package basic;
-//1.Arithmetic Operators->+,-,*,/,%
-public class Operators {
-	public static void main(String[] args) {
-		
-	}
-}
