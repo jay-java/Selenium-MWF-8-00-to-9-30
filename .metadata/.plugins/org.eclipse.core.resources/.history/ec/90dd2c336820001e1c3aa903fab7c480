@@ -1,9 +1,0 @@
-package basic;
-//three stream->in(intpu stream)
-//				,out(print stream),err(err stream)
-public class UserInput {
-	public static void main(String[] args) {
-		System.out.print("hello");
-		System.out.println("again");
-	}
-}
