@@ -6,17 +6,27 @@ public class ArrayDemo {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter size of array : ");
+		//take input for size of array 
 		int size = sc.nextInt();
+		//to assign size to array
 		int arr[] = new int[size];
+		//take user input in array
 		for(int index=0;index<arr.length;index++) {
 			System.out.print("enter element at arr["+index+"] : ");
 			arr[index] = sc.nextInt();
 		}
+		
+		
+		
+		//addition of elements 
 		int sum=0;
 		for(int index=0;index<arr.length;index++) {
 			sum = sum+arr[index];
 		}
 		System.out.println("sum = "+sum);
+		
+		
+		//binary search operation
 		System.out.println("enter number to search in array : ");
 		int num = sc.nextInt();
 		int counter =0;
