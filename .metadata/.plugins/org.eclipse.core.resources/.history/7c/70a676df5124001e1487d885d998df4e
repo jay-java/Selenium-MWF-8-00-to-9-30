@@ -1,9 +1,0 @@
-package basic;
-//to execute same code again and again
-//4 loops
-//1. for(initialization,condition,incre/decre){}
-//2.while(condition){}
-public class Loops {
-	public static void main(String[] args) {
-	}
-}
