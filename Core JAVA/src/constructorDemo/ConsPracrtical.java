@@ -46,7 +46,6 @@ class User {
 	public String toString() {
 		return "User [id=" + id + ", name=" + name + ", contact=" + contact + "]";
 	}
-
 }
 
 public class ConsPracrtical {
