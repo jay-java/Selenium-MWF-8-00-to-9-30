@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="basic.Student"/>
     <fullyQualifiedTypeName name="constructorDemo.Demo"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="constructorDemo.User"/>
     <fullyQualifiedTypeName name="OOPS.B"/>
     <fullyQualifiedTypeName name="OOPS.A"/>
@@ -21,4 +20,8 @@
     <fullyQualifiedTypeName name="OOPS.SBI"/>
     <fullyQualifiedTypeName name="OOPS.JAVA"/>
     <fullyQualifiedTypeName name="OOPS.B1"/>
+    <fullyQualifiedTypeName name="interfaceDemo.InterImple"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
 </qualifiedTypeNameHistroy>
