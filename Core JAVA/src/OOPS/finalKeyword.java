@@ -1,7 +1,7 @@
 package OOPS;
-final class A1{
+class A1{
 	final int i=1;
-	final public void change() {
+	public void change() {
 //		i++;
 		System.out.println(i);
 	}

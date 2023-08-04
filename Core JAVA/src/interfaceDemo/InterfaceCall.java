@@ -33,6 +33,7 @@ class InterImple implements inter1,inte2{
 }
 public class InterfaceCall {
 	public static void main(String[] args) {
+		
 		InterImple i = new InterImple();
 		i.interfaace1();
 		i.interfaace2();

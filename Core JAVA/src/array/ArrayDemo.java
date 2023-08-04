@@ -25,7 +25,6 @@ public class ArrayDemo {
 		}
 		System.out.println("sum = "+sum);
 		
-		
 		//binary search operation
 		System.out.println("enter number to search in array : ");
 		int num = sc.nextInt();
