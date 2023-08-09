@@ -1,10 +1,12 @@
 package collectionFramework;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 
-class Mobile {
+class Mobile implements Comparator<Mobile> {
 	private int ram;
 	private String model;
 	private double price;
@@ -16,9 +18,48 @@ class Mobile {
 		this.price = price;
 	}
 
+	public int getRam() {
+		return ram;
+	}
+
+	public void setRam(int ram) {
+		this.ram = ram;
+	}
+
+	public String getModel() {
+		return model;
+	}
+
+	public void setModel(String model) {
+		this.model = model;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
 	@Override
 	public String toString() {
 		return "Mobile [ram=" + ram + ", model=" + model + ", price=" + price + "]";
+	}
+
+	@Override
+	public int compareTo(Mobile o) {
+		if (this.ram > o.ram) {
+			return 1;
+		} else {
+			return 0;
+		}
+	}
+
+	@Override
+	public int compare(Mobile o1, Mobile o2) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 }
@@ -34,12 +75,27 @@ public class ListPractical {
 		list.add(m2);
 		list.add(m3);
 		list.add(m4);
-		System.out.println(list);
-		Iterator<Mobile> itr = list.iterator();
-		for(Mobile m:list) {
+		for (Mobile m : list) {
 			System.out.println(m);
 		}
 		
+		Comparable<Mobile> com = new Comparable<Mobile>() {
+
+			@Override
+			public int compareTo(Mobile o1) {
+				if (this.getRam() > o1.getRam()) {
+					return 1;
+				} else {
+					return 0;
+				}
+			}
+		};
+
+		Collections.sort(list, com);
+		for (Mobile m : list) {
+			System.out.println(m);
+		}
+
 //		while(itr.hasNext()) {
 //			System.out.println(itr.next());
 //		}
