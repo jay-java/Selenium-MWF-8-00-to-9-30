@@ -26,14 +26,16 @@ public class P08_FBLoginWithPara {
 		this.email = email;
 		this.pass = pass;
 	}
-	@BeforeClass
-	public static void beforeClass() {
-		driver = new DriverConnection().getConnection();
-		driver.get("https://www.facebook.com/");
-	}
+//	@BeforeClass
+//	public static void beforeClass() {
+//		driver = new DriverConnection().getConnection();
+//		driver.get("https://www.facebook.com/");
+//	}
 	
 	@Test
 	public void logintest() {
+		driver = new DriverConnection().getConnection();
+		driver.get("https://www.facebook.com/");
 		WebElement emailE = driver.findElement(By.id("email"));
 		emailE.clear();
 		emailE.sendKeys(email);
