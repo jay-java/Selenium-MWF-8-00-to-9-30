@@ -23,6 +23,7 @@ public class ListDemo {
 		list.add(1);
 		System.out.println(list.size());
 		list.remove(5);
+		list.add(321);
 		System.out.println(list);
 		Iterator itr = list.iterator();
 		while(itr.hasNext()) {

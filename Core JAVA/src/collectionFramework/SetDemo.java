@@ -18,6 +18,9 @@ public class SetDemo {
 		set.add(1);
 		System.out.println(set.size());
 		set.remove(5);
+	
+		set.add(534);
+		System.out.println(set);
 		Iterator itr = set.iterator();
 		while(itr.hasNext()) {
 			System.out.println(itr.next());
