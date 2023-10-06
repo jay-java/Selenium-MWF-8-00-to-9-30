@@ -10,6 +10,9 @@ public class UnaryOPerator {
 		System.out.println(j);
 		System.out.println(i);
 		
+		int k =4;
+		k+=4;//k=k+4
+		
 		int a = -10;
 		System.out.println(a);
 		int b=20;
