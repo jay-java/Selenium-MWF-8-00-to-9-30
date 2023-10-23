@@ -7,8 +7,8 @@ public class TheDPizza {
 		System.out.println("Welcome to D pizza");
 		System.out.println("Small pizza-150, medium pizza-250, large pizza-350, monster pizza-500");
 		System.out.println("Offers on " + "Buy 4 small pizza & get 500 ml coke free");
-		System.out.println("Buy 3 Medium pizza & get garlic bread");
-		System.out.println("Buy 3 large pizza & get 500 ml coke+ garlic bread free");
+		System.out.println("Buy 4 Medium pizza & get garlic bread");
+		System.out.println("Buy 4 large pizza & get 500 ml coke+ garlic bread free");
 		System.out.println("Buy 2 monster pizza and get 500ml coke+garlic bread + icecream");
 		System.out.println("enter pizza size : ");
 		String size = sc.next();
